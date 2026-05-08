@@ -145,7 +145,7 @@ export default function App() {
                   Semoga di umur yang baru ini, semua impianmu perlahan terwujud, senyummu makin bersinar, dan kebahagiaan selalu menyertai setiap langkahmu.
                 </p>
                 <p className="font-medium text-pink-600">
-                  Terima kasih sudah menjadi bagian dari cerita indah di hidup ini.
+                  Sekian Terima kasih.
                 </p>
               </div>
             </div>
@@ -226,9 +226,9 @@ function PhotosCard({ onNext }: { onNext: () => void }) {
   ];
   
   const captions = [
-    "Tawa yang tak pernah pudar...",
-    "Petualangan yang kita lalui bersama...",
-    "Dan momen hangat yang tak tergantikan."
+    "Alamak Gemasnya",
+    "Masyallah",
+    "Pengen ku culik awoawk."
   ];
 
   const handleNextPhoto = () => {
@@ -249,7 +249,7 @@ function PhotosCard({ onNext }: { onNext: () => void }) {
         boxShadow: '2px 4px 15px rgba(0,0,0,0.2)'
       }}
     >
-      <div className="text-center mb-4 font-serif text-xl text-gray-800">Kenangan Kita</div>
+      <div className="text-center mb-4 font-serif text-xl text-gray-800">Foto 1</div>
       
       <div className="relative aspect-square w-full bg-gray-100 mb-6 overflow-hidden border-4 border-white shadow-inner">
         <AnimatePresence mode="wait">
