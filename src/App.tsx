@@ -4,7 +4,7 @@ import Confetti from 'react-confetti';
 import { useWindowSize } from 'react-use';
 import { Music, Music2, VolumeX, Gift, Heart, Sparkles } from 'lucide-react';
 
-const MUSIC_URL = '/src/lagu.mp3'; // Happy acoustic track
+const MUSIC_URL = 'https://youtube.com/shorts/QIAo3ZQduKY?si=YK25OaTiSDQdafA7.mp3'; // Happy acoustic track
 
 export default function App() {
   const [step, setStep] = useState(0);
